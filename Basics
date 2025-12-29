@@ -1,0 +1,56 @@
+import UIKit
+
+//var name  = "Rohit"
+//name = "Sampannavar"
+//print (name) mutable variable
+
+//let name = "Rohit"
+//name = "Sampannavar"
+////cannot assign value to constant variable let non mutable
+
+
+//var name : String = "Rohit" // explicit data type declaration
+//var name = "Rohit" // implicit data type declaration
+
+//var age : Int = 25 // explicit data type declaration
+//var age = 25 // implicit data type declaration
+
+//var height : Double = 5.9 // explicit data type declaration
+//var weight = 75.5 // implicit data type declaration
+
+//var isMarried : Bool = false // explicit data type declaration
+//var isEmployed = true // implicit data type declaration
+
+// Array
+//var names : [String] = ["Rohit", "Sampannavar", "John", "Doe"] // array of strings
+//names.append("Alice")
+//print(names)
+//names.sort()
+//names.shuffle()
+//names.reverse()
+//names.first
+//names.last
+
+
+// Sets
+//var names = ["Rohit", "Sampannavar", "John", "Doe"] // array of strings
+//var namesSet = Set(names)
+//print(namesSet)
+
+
+
+//var agesSet: Set<Int> = [25,30,40,45,40,30] // set of integers
+//
+//agesSet.insert(50)
+//print(agesSet)
+//agesSet.contains(30)
+//agesSet.contains(1000)
+
+
+
+
+//Dictonary
+
+//let namesAndAges: [String:Int] = ["Rohit":22, "Shravan":24, "Karthik":35, "Manju":17]
+//print(namesAndAges)
+//namesAndAges["Karthik"]
