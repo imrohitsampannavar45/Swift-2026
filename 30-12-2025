@@ -1,0 +1,85 @@
+
+// Functions
+
+//func printMyName() {
+//    print("Rohit Sampannavar")
+//}
+//
+//// Example of a function that returns a String (non-void) and correctly returns a value
+//func printMydetails(name: String, salary: Int, qualification: String) -> String {
+//    print(salary)
+//    print(name)
+//    print(qualification)
+//    return qualification
+//}
+//
+//// Call examples
+//printMyName()
+//let qual = printMydetails(name: "Rohit", salary: 44000, qualification: "Bachelor of Engineering")
+//print("Returned qualification: \(qual)")
+
+
+
+//if else
+
+//var isDarkModeOn  = false
+//
+//if isDarkModeOn{
+//    print("yes Dark mode is on ")
+//}else{
+//    print("Dark mode is off")
+//}
+
+
+//var Score = 0
+//
+////
+////
+////if myScore > 85{
+////    print("I Won")
+////}else {
+////    print("you Won")
+////}
+//
+//
+//if Score > 85 {
+//    print("Good Job")
+//} else if Score > 70 {
+//    print("Need Improvements")
+//} else if Score > 50 {
+//    print("OK OK ")
+//} else {
+//    print("What are you doing ?? ")
+//}
+
+
+
+//for loops
+
+//var names : [String] = ["Rohit", "Karthik" , "manuju" , "anish" , "Pushpa" , "Sharvan"]
+//
+
+//for friends in names {
+//    print(friends)
+//}
+
+//for friends in names where friends == "Pushpa"{
+//    print(friends)
+//}
+//
+
+//for i in 1...1000{
+//    print(i)
+//}
+
+//for i in "Rohit" {
+//    print(i)
+//}
+//
+//
+//for i in "********" {
+//    print(i)
+//}
+
+
+
