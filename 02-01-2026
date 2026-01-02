@@ -1,0 +1,113 @@
+
+//enum
+
+//enum Phone {
+//    case iphone16
+//    case iphone17ProMax
+//    case nokia
+//    case motorola
+//}
+//
+//func bestPhone(which phone:Phone) {
+//    if phone == .iphone16 {
+//        print("Its my present phone too good")
+//    } else if phone == .iphone17ProMax {
+//        print("very very costly")
+//    } else if (phone == .nokia) {
+//        print("Durable and best")
+//    } else {
+//        print("Recent Launches can't trust")
+//    }
+//    
+//    
+//}
+//
+//bestPhone(which: .nokia)
+//
+//
+
+//enum for raw value
+
+//enum Phone:String {
+//    case iPhone11Pro = "this is best"
+//    case iphone16 = "Good"
+//        case iphone17ProMax = "Costly"
+//        case nokia = "Durable"
+//        case motorola = "Okay"
+//}
+//
+//func  getSeansOpinion(on phone: Phone) {
+//    print(phone.rawValue)
+//}
+//
+//getSeansOpinion(on: .motorola)
+
+//switch cases
+
+//enum animes {
+//    case naruto
+//    case deathnote
+//    case demonSlayer
+//    case  onepiece
+//}
+//
+//func Anyanimes(on anime: animes ){
+//    switch anime{
+//    case .naruto:
+//        print("Great Series")
+//    case .deathnote:
+//        print("Good for me")
+//    case .demonSlayer:
+//        print("Epic")
+//    case .onepiece:
+//        print("Didnt saw it coming")
+//    }
+//}
+//
+//Anyanimes(on: .demonSlayer)
+
+
+
+//enum workLoad{
+//    case bugs
+//    case stories
+//    case epic
+//}
+//
+//func estimates(on work:workLoad)
+//{
+//    switch work {
+//    case .bugs:
+//        print("Okay")
+//    case .stories:
+//        print("Superb")
+//    case .epic:
+//        print("Not worked")
+//    default:
+//        print("Dont Know")
+//    }
+//}
+//
+//estimates(on: .bugs)
+
+
+
+//
+//enum fruits{
+//    case orange
+//    case apple
+//    case mango
+//}
+//
+//func favfruits(on fruit:fruits ){
+//    switch fruit{
+//    case .apple:
+//        print("Good for Health")
+//    case .orange:
+//        print("Very Juicy")
+//    case .mango:
+//        print("Very Tasty")
+//    }
+//}
+//
+//favfruits(on: .apple)
