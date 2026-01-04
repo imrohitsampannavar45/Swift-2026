@@ -1,0 +1,48 @@
+
+//Operators
+
+//+ Addition
+//- Substraction
+//* Multiplication
+/// Division
+//% Modulus
+//< Less than
+//> Greater than
+//<= less than or equal
+//>= greater than or equal
+//== Equals to
+//!= not equals to
+//|| OR
+// && AND
+
+
+let a = 10
+let b = 20
+let c = a + b
+print (c)
+
+let d = a - b
+print(d)
+
+let e = a * b
+print(e)
+
+let f = a/b
+print(f)
+
+let g = a%b
+print(g)
+
+if f == g && a == b  {
+    print("Same")
+}
+else {
+    print("Not Same")
+}
+
+if a<=b || b>=a{
+    print("Nice ")
+} else {
+    print("Not nice")
+}
+
