@@ -1,0 +1,118 @@
+
+//optionals
+//
+//let marks: [Int] = [10,110,20,77,90]
+//print(marks)
+
+//in optionals we have 4 types we can make
+// 1. if let
+// 2. nil coalescing
+// 3. guard let
+// 4. force unwrapping
+
+
+////ex:1
+////if let
+//if let greatestMark = marks.last {
+//    print("greatest mark is \(greatestMark)")
+//} else {
+//    print("array is empty")
+//}
+//
+////ex:2
+/////nil coalescing
+//let greatestMark = marks.last ?? 0
+//print("greatest mark is \(greatestMark)")
+
+//ex:3
+//guard let
+
+//func getHighestMarks()
+//{
+//    guard let greatestMark = marks.last else {
+//        return
+//    }
+//    print("greater marks is \(greatestMark)")
+//}
+//
+//getHighestMarks()
+
+
+//ex:4
+// force unwrap
+//
+//let greatermarks = marks.last!
+
+
+
+//practice
+//
+//if let lessMarks = marks.last{
+//    print("less marks are: \(lessMarks)")
+//} else {
+//    print("There are no Less Marks ")
+//}
+//
+//
+//let lessMarks =  marks.last ?? 0
+//let highMarks = marks.first ?? 7
+//
+//
+//func LlessMarks () {
+//    guard let lessMarks = marks.last else {
+//        return
+//    }
+//    print("Less Marks are \(lessMarks)")
+//}
+//
+//LlessMarks()
+//
+//let lessMarkS = marks.last!
+
+
+
+
+//class
+
+//class Student{
+//    var name: String
+//    var marks: Int
+//    var section: String
+//    var bio: String
+//
+//    init(name:String, marks:Int, section:String, bio:String)
+//    {
+//        self.name = name
+//        self.marks = marks
+//        self.section = section
+//        self.bio = bio
+//    }
+//}
+//
+//let Rohit = Student(name: "Rohit", marks: 90, section: "A", bio: "A good boy")
+//let Apoorva = Student(name: "Apoorva", marks: 80, section: "B", bio: "A good girl")
+
+//
+//class Developer{
+//    var name: String?
+//    var exp : Int?
+//    var skills: [String]?
+//
+//    init(){}
+//
+//    init(name:String?,
+//         exp:Int?,
+//         skills:[String]?)
+//    {
+//        self.name = name
+//        self.exp = exp
+//        self.skills = skills
+//    }
+//
+//    func speakName(){
+//        print(name!)
+//    }
+//
+//    let sean = Developer(name: "Sean", exp: 10, skills: ["Swift", "iOS"])
+//
+//}
