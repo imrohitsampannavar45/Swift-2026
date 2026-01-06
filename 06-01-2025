@@ -1,0 +1,86 @@
+
+
+//
+//class Developer {
+//    var name: String?
+//    var jobTitle: String
+//    var yearsofExp : Int
+//    
+//    init(name: String, jobTitle: String, yearsofExp: Int) {
+//        self.name = name
+//        self.jobTitle = jobTitle
+//        self.yearsofExp = yearsofExp
+//    }
+//    
+//    func speakName(){
+//        print("The name is \(name!)")
+//    }
+//}
+//    
+//class iOSDeveloper: Developer{
+//    var favTopic: String?
+//    
+//    func favTopics() {
+//        if let topic = favTopic{
+//            print("My favorite topic is \(topic)")
+//        }else {
+//            print("there is no fav topic for me")
+//        }
+//    }
+//    
+//    override func speakName() {
+//        print("The name and job Title is \(name ?? "Rohit") -\(jobTitle)")
+//    }
+//}
+//        
+//        let Rohit = iOSDeveloper(name: "Rohit", jobTitle: "iOS Enginner", yearsofExp: 1)
+//        
+//        Rohit.favTopic = "ARKIT"
+//        Rohit.favTopics()
+//        
+//        
+//
+//
+
+
+
+
+
+
+class Student {
+    var name : String
+    var section : String
+    var marks: Int?
+    
+    init(name: String, section: String, marks: Int) {
+        self.name = name
+        self.section = section
+        self.marks = marks
+    }
+    
+    func speakMarks(){
+        print("The marks are \(marks!)")
+    }
+}
+
+class Teacher: Student {
+    var assignments: String?
+    var internals: Int?
+    
+    func assign(){
+        if let work = assignments{
+            print("The Assignments are: \(assignments)")
+            
+        }else {
+            print("no assignments yet")
+        }
+    }
+}
+
+let Rohit = Teacher(name: "Rohit", section: "A", marks: 99)
+Rohit.assignments = "iOS Study"
+Rohit.internals = 77
+
+Rohit.speakMarks()
+
+
