@@ -1,0 +1,49 @@
+
+//practice - 1 // week overview 
+class MyStudents {
+    var name:String
+    var classs:String
+    var noofStudents: Int
+    
+    init(name:String, classs:String, noofStudent:Int){
+        self.name = name
+        self.classs = classs
+        self.noofStudents = noofStudent
+    }
+    
+    func speakNameAndClasss() {
+        print("The class name is : \(classs) ")
+    }
+    
+    class RohitStudent : MyStudents {
+        var grade : String?
+        
+        
+        func speakGrade () {
+            if let grade = grade?.last{
+                print("the grade is : \(grade)")
+            }
+        }
+        
+        
+        
+        
+    }
+}
+
+let RohitStudent = MyStudents.RohitStudent(name: "Rohit", classs: "A", noofStudent: 10)
+
+
+
+
+//for loop 
+for i in 1...10 {
+    print(i)
+}
+
+
+for j in 50...100{
+    print(j)
+}
+
+
