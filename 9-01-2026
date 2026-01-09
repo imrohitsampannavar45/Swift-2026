@@ -1,0 +1,84 @@
+
+// struct and class
+
+//class Developer {
+//    var name: String
+//    var jobTitle: String
+//    var yearsofExp: Int
+//    
+//    init(name:String, jobTitle:String, yearsofExp:Int) {
+//        self.name = name
+//        self.jobTitle = jobTitle
+//        self.yearsofExp = yearsofExp
+//    }
+//}
+//var sean = Developer (name:"sean", jobTitle: "iOS Engineer", yearsofExp: 5)
+//var rohit = sean
+//rohit.yearsofExp = 10
+//rohit.name = "ROhit Sampannavar"
+//sean.name
+//sean.yearsofExp
+
+//example - google sheet many can access the first value and  second or any can change the value of the first reference so these are reference types class
+
+//the values changes with the reference also changes this is reference type (class)
+
+
+//
+//struct Develoepr {
+//    var name: String
+//    var jobTitle: String
+//    var yearsofExp: Int
+//}
+//
+//let Rohit = Develoepr(name:"Rohit", jobTitle: "Mern Developer", yearsofExp: 3)
+//
+//Rohit.name
+//
+//var Ramesh = Rohit
+//
+//Ramesh.name = "Ramesh"
+//Rohit.name
+//
+//
+//Ramesh.name
+
+// these are the value types this will not change the value with reference
+
+// ex - Microsoft Excel -> Email -> 1st Copy or instance will not get Affected with use of first vlaue second value we can add but we cant change the value of first
+// value type (struct)
+
+
+//extension means if we use any UIButton it changes or make differnce to all the things which or when we use that UIButton or String function
+
+//  extension UIButton{
+        // func glow()
+        // func animate()
+        // func shine ()
+        // func run()
+//}
+ 
+
+// if we use that UIButton means now all the function used in that UI Button will apply where ever we used
+
+
+
+//
+//extension String{
+//    
+//    func removeWhiteSpaces () -> String{
+//        return components(separatedBy: .whitespaces).joined()
+//    }
+//}
+//
+//let name = "  Rohit Sampannavar  "
+//name.removeWhiteSpaces()
+//
+//extension Int{
+//    func count () -> Int{
+//        return +10
+//    }
+//}
+//
+//let a:Int = 10
+//a.count()
