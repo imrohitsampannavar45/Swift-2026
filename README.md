@@ -7,3 +7,5 @@
 				
 =============================================================================== <br />
 				1st Week Practice - 7th Day (For loop and class)  <br />
+=============================================================================== <br />
+				- struct and classs difference (value type -> struct and refernce type -> class )   - 8th Day (09-01-2026)  <br />
